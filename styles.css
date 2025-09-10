@@ -1,0 +1,13 @@
+body {
+    background-color: #001f3f; /* Navy blue */
+}
+
+.header_bar {
+    background-color: gray; /* Bright blue */
+    color: aliceblue; /* Bright blue */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: -10px -20px; /* Lighter blue */
+}   
