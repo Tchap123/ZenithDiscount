@@ -38,3 +38,20 @@ body {
     border-radius: 20px;
 }
 
+.input_bar {
+    padding: 10px;
+    width: 90%;
+    height: 20px;
+    position: relative;
+    top: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[id="clientName"] {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
