@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zenith Client Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./Resources/logo.png" type="image/x-icon">
 </head>
 <body>
     <div class="header_bar">
         <img src="./Resources/logo.png" alt="Zenith Logo" class="logo">
         <h1>Zenith Clients</h1>
         <div class="header_buttons">
-            <button id="addClientBtn">Add Client</button>
-            <button id="viewClientsBtn">View Clients</button>
+            <button id="allClientsbtn">Clients</button>
         </div>
     </div>
     <!-- Main content area -->
@@ -23,7 +23,11 @@
             <input type="text" id="clientName" placeholder="Organization/Institute Name">
             <button id="search_btn"><img id="search_icon" src="./Resources/search.png" alt="Search"></button>
         </div>
+        <!-- Action Button --->
+        <button class="actionButton" id="editClientBtn">Edit</button>
+        <button class="actionButton" id="deleteClientBtn">Delete</button>   
     </div>
+    <hr id="footer_line">
     <script src="script.js" defer></script>
 </body>
 </html>

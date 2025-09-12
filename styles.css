@@ -23,10 +23,25 @@ body {
     gap: 10px;
     border-radius: 30%;
     padding: 10px;
-    
+}
+
+button[id="allClientsbtn"] {
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    border: solid 1px #ccc;
+    cursor: pointer;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: none;
 }
 
 .MainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #637AB9;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -52,8 +67,8 @@ body {
     width: 90%;
     height: 20px;
     position: relative;
-    top: 30px;
-    margin-top: 20px;
+    top: 10px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -89,4 +104,29 @@ img[id="search_icon"] {
     vertical-align: middle;
     cursor: pointer;
     margin-left: 10px;
+}
+
+.actionButton {
+    height: 40px;
+    width: 100px;;
+    background-color: transparent;
+    border: solid 1px #ccc;
+    cursor: pointer;
+    margin: 10px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+hr#footer_line {
+    align-self: baseline;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 0;
+    height: 1px;
+    background: black;
 }
