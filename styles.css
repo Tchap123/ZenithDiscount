@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: -10px -20px; /* Lighter blue */
+ /* Lighter blue */
 }   
 
 .logo {
@@ -21,7 +21,9 @@ body {
     margin: auto; /* Push buttons to the right */
     display: flex;
     gap: 10px;
-    border-radius: 30%; /* Space between buttons */
+    border-radius: 30%;
+    padding: 10px;
+    
 }
 
 .MainContent {
@@ -36,6 +38,13 @@ body {
     margin-bottom: auto;
     padding: 20px;
     border-radius: 20px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
 }
 
 .input_bar {
@@ -50,8 +59,34 @@ body {
 
 input[id="clientName"] {
     width: 60%;
-    padding: 10px;
+    height: 50px;
     border: none;
     border-radius: 5px;
+    vertical-align: middle;
     font-size: 16px;
+}
+
+button[id="search_btn"] {
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    border: solid 1px #ccc;
+    cursor: pointer;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+}
+    
+img[id="search_icon"] {
+    position: relative;
+    left: -5px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 10px;
 }
